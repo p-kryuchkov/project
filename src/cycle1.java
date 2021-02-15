@@ -14,16 +14,10 @@ public class cycle1 {
             System.out.println("Введите число");
             int num = numin.nextInt();
             array[i] = num;
-            if (array[i] == x) {
+            if (array[i] == x | array[i] == y | array[i] == z) {
                 System.out.println("Данное число имеется в константах");
+                break;
             }
-            if (array[i] == y) {
-                System.out.println("Данное число имеется в константах");
-            }
-            if (array[i] == z) {
-                System.out.println("Данное число имеется в константах");
-            }
-
         }
     }
 }

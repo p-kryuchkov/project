@@ -18,7 +18,13 @@ public class operator2 {
                 break;
             case "*": System.out.println("x * y = " + (x * y));
                 break;
-            case "/": System.out.println("x / y = " + (x / y));
+            case "/":
+                if (y == 0) {
+                    System.out.println("На ноль делить нельзя");
+                }
+                else {
+                    System.out.println("x / y = " + (x / y));
+                }
                 break;
         }
     }

@@ -17,10 +17,10 @@ public class cycle4 {
                 array[i][k] = num;
             }
         }
-        for (int i = 0; i < 1 ; i++ ){
-            for (int k = 0; k < h;  k++) {
+        for (int k = 0; k < h;  k++) {
+                int i = 0;
                 System.out.print((3*array[i][k]) + " ");
-            }
+
         }
     }
 }

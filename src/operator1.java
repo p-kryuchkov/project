@@ -12,7 +12,7 @@ public class operator1 {
         int z = zin.nextInt();
         int a = (x + y + z)/3;
         System.out.println("Среднее арифметическое чисел X, Y, Z: " + a);
-        System.out.println("Среднее арифметическое чисел, деленное на 2: " + a/2);
+        System.out.println("Среднее арифметическое чисел, деленное на 2: " + a / 2);
         if (a/2>3) {
             System.out.println("Программа выполнена корректно");
         }

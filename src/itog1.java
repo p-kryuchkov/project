@@ -11,4 +11,5 @@ public class itog1 {
         double result = Math.round((r / c) * 100);
         System.out.println( "Итого: " + (result / 100) + " долларов") ;
     }
+
 }
